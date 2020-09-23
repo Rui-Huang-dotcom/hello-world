@@ -14,4 +14,9 @@ for name, values in favourite_languages.items():
         print("\n" + name.title() + " favourite language is: ")
         for value in values:
             print("\t" + value.title())
-            
+
+
+            x = {"first_name": "Jun", "lasr_name": "Zheng", "city": "Jian"}
+            print(x["first_name"])
+            print(x["lasr_name"])
+            print(x["city"])
